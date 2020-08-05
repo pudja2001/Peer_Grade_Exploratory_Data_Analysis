@@ -13,5 +13,5 @@ subset_power <- subset(power, DateTime >= "2007-02-01 07:00:00" & DateTime< "200
 hist(subset_power$Global_active_power, col="red", xlab="Global Active Power (kilowatts)", main="Global Active Power")
 
 # Load to PNG file
-dev.copy(png, file="D:/PUDJA/PROGRAMMING/Data Science coursera (J.Hopkins University)/Course/4. Exploratory Data Analysis/Week 1/Peer_Grade Assignment/plot1.png")
+dev.copy(png, file="C:/Users/Pudja Gemilang/Desktop/Peer_Grade_Exploratory_Data_Analysis/plot4.png")
 dev.off()
